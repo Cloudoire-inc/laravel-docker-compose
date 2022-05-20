@@ -16,4 +16,4 @@ $ docker-compose up -d
 $ docker-compose exec app php artisan key:generate
 ```
 # Note
-#### if you want to change configuration like **password, db_host env variable** then open **.env** file 
+if you want to change configuration like **password, db_host env variable** then open **.env** file 

@@ -14,6 +14,6 @@ $ cd laravel-docker-compose
 $ docker-compose build app
 $ docker-compose up -d 
 $ docker-compose exec app php artisan key:generate
-``
+```
 # Note
 #### if you want to change configuration like **password, db_host env variable** then open **.env** file 

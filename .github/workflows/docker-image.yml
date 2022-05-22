@@ -26,7 +26,7 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: soban252/mydocker:1.2 , soban252/mydocker:latest
+          tags: soban252/mydocker:${{ steps.vars.outputs.tag }} , soban252/mydocker:latest
 
 
         

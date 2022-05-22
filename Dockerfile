@@ -33,4 +33,4 @@ RUN mkdir -p /home/soban/.composer && \
 # Set working directory
 WORKDIR /var/www
 
-USER $user
+USER soban

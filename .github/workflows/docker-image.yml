@@ -26,7 +26,7 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/mydocker:${{ steps.vars.outputs.tag }} , ${{ secrets.DOCKERHUB_USERNAME }}/mydocker:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/mydocker:1.4 , ${{ secrets.DOCKERHUB_USERNAME }}/mydocker:latest
           
 
 

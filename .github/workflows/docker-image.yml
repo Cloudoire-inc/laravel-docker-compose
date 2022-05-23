@@ -19,6 +19,8 @@ jobs:
         name: Generate build number
         id: buildnumber
         uses: einaregilsson/build-number@v3
+        with:
+          token: ${{secrets.token}}
       -
         name: Login to DockerHub
         uses: docker/login-action@v2
